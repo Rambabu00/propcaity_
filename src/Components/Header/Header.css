@@ -1,0 +1,23 @@
+.Header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+     padding-left: 20px;
+     padding-right: 20px;
+    margin-top: 8px;
+    width: 100%;
+    background-color: var(--lightMode);
+    border: 3px solid var(--white);
+    border-radius: 5px;
+    box-shadow: 0px 1px 7px var(--shadow),0px 1px 8px var(--shadow), 0px 0px 9px var(--shadow);
+}
+.leftHeader{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 10px;
+}
+.leftHeader span{
+    margin: auto 0;
+    font-weight: 100;
+   
+}

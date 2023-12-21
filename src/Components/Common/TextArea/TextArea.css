@@ -1,0 +1,10 @@
+ textarea{
+    width: 100%;
+    border: none;
+    margin: 4px 10px;
+    outline: none;
+    font-size: 1rem;
+    resize: none;
+   overflow: hidden;
+    color: black;
+ }
